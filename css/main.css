@@ -176,7 +176,11 @@ aside .content-wrapper {
   height: 6.8%;
   }
   /*** review & .content-wrapper***/
-
+.reviews {
+  display: flex;
+  justify-content: center;
+  
+}
 
   /*** ***/
  .reviews .content-wrapper {
