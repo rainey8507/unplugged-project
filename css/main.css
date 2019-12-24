@@ -160,7 +160,8 @@ aside .content-wrapper {
 }
 .features .content-wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-flow: row wrap;
   align-items: center;
 }
 .features-items {
@@ -169,30 +170,61 @@ aside .content-wrapper {
   align-items: center;
   justify-content: center;
 }
+/**** 
 .features-items > article {
   flex-grow: 1;
   flex: 1 1 30%;
   width: 7%;
   height: 6.8%;
   }
+  *****/
   /*** review & .content-wrapper***/
 .reviews {
   display: flex;
   justify-content: center;
-  
+
 }
 
   /*** ***/
  .reviews .content-wrapper {
    background: #2B423A;
-   height: 23%;
+   
  }
- .la-crue {
-   background: url(../img/lacrue.jpg) no-repeat;
-   background-position: left center;
-   background-size: 38%;
+ .bolt {
+  width: 87.5%;
+  height: 6%;
+  
+ }
+ 
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+}
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+ 
+   .mission-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+ /*
+    .mission-content p {
+        width: 
+    }
+ 
+    .contact-section .content-wrapper h2 {
+        width:
+    }
+ */
+    .contact-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
- }
+ 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
