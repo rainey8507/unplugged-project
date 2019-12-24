@@ -165,12 +165,30 @@ aside .content-wrapper {
 }
 .features-items {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
-article {
-  display: flex;
- 
-}
+.features-items > article {
+  flex-grow: 1;
+  flex: 1 1 30%;
+  width: 7%;
+  height: 6.8%;
+  }
+  /*** review & .content-wrapper***/
+
+
+  /*** ***/
+ .reviews .content-wrapper {
+   background: #2B423A;
+   height: 23%;
+ }
+ .la-crue {
+   background: url(../img/lacrue.jpg) no-repeat;
+   background-position: left center;
+   background-size: 38%;
+
+ }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
