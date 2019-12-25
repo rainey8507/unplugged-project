@@ -117,10 +117,12 @@ ol {
 a {
 	color: #e2e3ed;
   text-decoration: none;
+  text-transform: uppercase;
 }
  
 h2 {
   font-family: 'Poppins', sans-serif;
+  color: #ffffff;
 }
  
 h3, 
@@ -151,15 +153,17 @@ address {
    width: 90%;
    margin: 50px 0;
  }
- /*
-address {
  
+address {
+ font-style: normal;
 }
  
 .content-wrapper {
- 
+  width: 90%;
+  margin: 50px 0;
 }
-*/
+/************** BASES HEADER - FOOTER STYLES ***********/
+
 header,
 footer {
   display: flex;
@@ -229,7 +233,8 @@ footer .social-icons p {
 footer .copyright {
   margin: 20px 0;
 }
-/*** MAIN ***/
+/*** hero***/
+
 .hero-area {
   display: flex;
   background: url(../img/hero.jpg) center no-repeat;
@@ -247,6 +252,7 @@ footer .copyright {
   line-height: 1.2; 
   color: rgba(255, 255, 255, 0.876);
 }
+/*** Aside ***/
 
 aside {
   background-color: #527158;
@@ -262,6 +268,7 @@ aside .form {
   flex-direction: column;
   justify-content: left;
 }
+
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
@@ -284,6 +291,7 @@ input[type=button] {
   text-transform: uppercase;
   margin-bottom: 50px;
 }
+/*****  features *****/
 
 .features {
   display: flex;
@@ -309,6 +317,7 @@ input[type=button] {
   align-items: center;
   justify-content: center;
 }
+/*** Reviews ***/
 
 .reviews {
   display: flex;
@@ -318,17 +327,29 @@ input[type=button] {
   background: #2b423a;
 }
 
-  
- 
+.reviews h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
  
 footer .content-wrapper {
     width: 55%;
     margin: 50px 0;
 }
-aside .form {
-  margin-top: 30px;
+
+/***** ABOUT PAGE *****/
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #527158;
 }
- 
 
 .map figure {
   width: 100%;
@@ -345,6 +366,7 @@ aside .form {
   top: 0; 
   left: 0; 
 }
+.contact-section {background-color: #2b423a; padding: 1em 1em 1em 1em;}
 @media only screen and (min-width: 768px) {
   header {justify-content: center;}
   header .content-wrapper {justify-content: left;}
