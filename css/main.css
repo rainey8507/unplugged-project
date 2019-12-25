@@ -130,15 +130,22 @@ h4 {
 p {
 	font-size: 1em;
 }
- /*
-img {
  
+img {
+ width: 100%;
 }
  
 figure {
- 
+  margin: 0;
 }
- 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+ /*
 address {
  
 }
