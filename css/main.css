@@ -106,6 +106,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  text-align: left;
 }
  
 ul, 
@@ -126,9 +127,11 @@ h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
+  color: #fff;
 }
 
 p {
+  color: #fff;
 	font-size: 1em;
 }
  
@@ -139,13 +142,15 @@ img {
 figure {
   margin: 0;
 }
-header figure {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+
+address {
+  font-style: normal;
+ }
+  
+ .content-wrapper {
+   width: 90%;
+   margin: 50px 0;
+ }
  /*
 address {
  
@@ -163,7 +168,7 @@ footer {
   align-items: center;
   flex-flow: row wrap;
 }
-header {padding: 15px 0;}
+header {height: 3.5%;}
 
 header .content-wrapper {
   display: flex;
@@ -180,7 +185,6 @@ header figure {
 .header-divider {
   background-color: #3a3a3a;
   margin: 10px 0 20px 0;
-  height: 1px;
   width: 100%;
 }
 header nav {
@@ -195,8 +199,10 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
+  width: 100%;
 }
+
+header nav ul a {padding-right: 1em;}
 footer {
   text-align: center;
   flex-direction: column;
@@ -234,11 +240,12 @@ footer .copyright {
   min-height: 500px;
 }
 .hero-area h1 {
+  margin-bottom: 600px;
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif; 
   font-weight: 500; 
   line-height: 1.2; 
-  color: #fff;
+  color: rgba(255, 255, 255, 0.876);
 }
 
 aside {
@@ -247,7 +254,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  padding: 0 20px;
+  
 }
 
 aside .form {
@@ -316,11 +323,12 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #2b423a;
 }
 
   /*** ***/
  .reviews .content-wrapper {
-   background: #2B423A;
+  
    
  }
  
