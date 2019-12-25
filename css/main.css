@@ -247,6 +247,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 0 20px;
 }
 
 aside .form {
@@ -274,6 +275,7 @@ input[type=button] {
   border: none;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .features {
@@ -281,9 +283,10 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background: url(../img/unplugged-retreat-features.jpg) no-repeat;
+  background: url(../img/unplugged-retreat-features.jpg);
+  background-size: cover;
   background-position: center;
-  min-height: 1450px;
+  height: 43%;
 }
 .features h2 {color: #fff;}
 .features article {color: #fff;}
