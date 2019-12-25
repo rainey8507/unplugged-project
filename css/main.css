@@ -309,15 +309,7 @@ input[type=button] {
   align-items: center;
   justify-content: center;
 }
-/**** 
-.features-items > article {
-  flex-grow: 1;
-  flex: 1 1 30%;
-  width: 7%;
-  height: 6.8%;
-  }
-  *****/
-  /*** review & .content-wrapper***/
+
 .reviews {
   display: flex;
   justify-content: center;
@@ -326,16 +318,8 @@ input[type=button] {
   background: #2b423a;
 }
 
-  /*** ***/
- .reviews .content-wrapper {
   
-   
- }
  
- .bolt {
-  width: 87.5%;
-  height: 6%;
- }
  
 footer .content-wrapper {
     width: 55%;
