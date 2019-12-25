@@ -392,10 +392,16 @@ aside .form {
     .faq h2 {
         width: 100%;
     }
+    .faq h4,
+    .faq p {
+        font-size: .875em;
+        line-height: 1.125;
+    }
   }
    
   @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
+    header {padding: 15px 0;}
     .content-wrapper {
       max-width: 960px;
     }
