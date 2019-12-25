@@ -175,7 +175,8 @@ header nav ul {
 /*** MAIN ***/
 .hero-area {
   display: flex;
-  background: url(../img/hero.jpg);
+  background: url(../img/hero.jpg) center no-repeat;
+  background-position: cover;
   justify-content: center;
   align-items: center;
   flex-flow:  row wrap;
